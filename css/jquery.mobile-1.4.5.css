@@ -786,9 +786,9 @@ div.ui-controlgroup-label {
 -----------------------------------------------------------------------------------------------------------*/
 .ui-btn,
 label.ui-btn {
-	font-weight: bold;
-	border-width: 1px;
-	border-style: solid;
+	/*font-weight: bold;*/
+	/*border-width: 1px;*/
+	/*border-style: solid;*/
 }
 .ui-btn {
 	text-decoration: none !important;
@@ -1113,10 +1113,10 @@ html body .ui-group-theme-b .ui-bar-inherit {
 .ui-overlay-b,
 .ui-page-theme-b,
 .ui-page-theme-b .ui-panel-wrapper {
-	background-color: 			#252525 /*{b-page-background-color}*/;
-	border-color:	 		#454545 /*{b-page-border}*/;
-	color: 					#fff /*{b-page-color}*/;
-	text-shadow: 0 /*{b-page-shadow-x}*/ 1px /*{b-page-shadow-y}*/ 0 /*{b-page-shadow-radius}*/ 	#111 /*{b-page-shadow-color}*/;
+	background-color: 			#D2D2D2 /*{b-page-background-color}*/;
+	border-color:	 		#D2D2D2 /*{b-page-border}*/;
+	color: 					#000 /*{b-page-color}*/;
+	/*text-shadow: 0 /*{b-page-shadow-x}*/ 1px /*{b-page-shadow-y}*/ 0 /*{b-page-shadow-radius}*/ 	#111 /*{b-page-shadow-color}*/;
 }
 /* Body: Read-only lists, text inputs, collapsible content */
 .ui-body-b,
@@ -1144,14 +1144,14 @@ html .ui-panel-page-container-b {
 html .ui-bar-b a,
 html .ui-body-b a,
 html body .ui-group-theme-b a {
-	color: #22aadd /*{b-link-color}*/;
+	color: #fff /*{b-link-color}*/;
 	/*font-weight: bold;*/
 }
 .ui-page-theme-b a:visited,
 html .ui-bar-b a:visited,
 html .ui-body-b a:visited,
 html body .ui-group-theme-b a:visited {
-    color: #22aadd /*{b-link-visited}*/;
+    color: #fff /*{b-link-visited}*/;
 }
 .ui-page-theme-b a:hover,
 html .ui-bar-b a:hover,
@@ -1178,11 +1178,11 @@ html .ui-body-b .ui-btn:visited,
 html body .ui-group-theme-b .ui-btn:visited,
 html head + body .ui-btn.ui-btn-b:visited {
 	background-color: #8D9377; /*{b-bup-background-color}*/
-	/*background: -webkit-linear-gradient(#777777, rgb(37, 37, 37)); /* For Safari 5.1 to 6.0 */
-	/*background: -o-linear-gradient(#777777, rgb(37, 37, 37)); /* For Opera 11.1 to 12.0 */
-	/*background: -moz-linear-gradient(#777777, rgb(37, 37, 37)); /* For Firefox 3.6 to 15 */
-	/*background: linear-gradient(#777777, rgb(37, 37, 37)); /* Standard syntax */
-	/*border-color:	 		#1f1f1f /*{b-bup-border}*/;
+	background: -webkit-linear-gradient(#8D9377, rgb(37, 37, 37)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#8D9377, rgb(37, 37, 37)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#8D9377, rgb(37, 37, 37)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#8D9377, rgb(37, 37, 37)); /* Standard syntax */
+	border-color:	 		#8D9377 /*{b-bup-border}*/;
 	color: 					#fff /*{b-bup-color}*/;
 	/*text-shadow: 0 /*{b-bup-shadow-x}*/ 1px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/ #111 /*{b-bup-shadow-color}*/;
 }
@@ -1243,7 +1243,7 @@ html .ui-bar-b .ui-radio-on:after,
 html .ui-body-b .ui-radio-on:after,
 html body .ui-group-theme-b .ui-radio-on:after,
 .ui-btn.ui-radio-on.ui-btn-b:after {
-	border-color:			#22aadd /*{b-active-background-color}*/;
+	/*border-color:			#22aadd /*{b-active-background-color}*/;
 }
 /* Focus */
 .ui-page-theme-b .ui-btn:focus,
@@ -2849,7 +2849,7 @@ li.ui-block-e {
 	position: relative;
 }
 .ui-collapsible-heading .ui-btn {
-	text-align: left;
+	text-align: center;
 	margin: 0;
 	border-left-width: 0;
 	border-right-width: 0;
@@ -2859,8 +2859,8 @@ li.ui-block-e {
 	text-align: center;
 }
 .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
-	border-right-width: 1px;
-	border-left-width: 1px;
+	/*border-right-width: 1px;*/
+	/*border-left-width: 1px;*/
 }
 .ui-collapsible-collapsed + .ui-collapsible:not(.ui-collapsible-inset) > .ui-collapsible-heading .ui-btn {
 	border-top-width: 0;
@@ -2904,7 +2904,7 @@ li.ui-block-e {
 .ui-collapsible-heading,
 .ui-collapsible-heading > .ui-btn {
 	-webkit-border-radius: inherit;	
-	border-radius: inherit;	
+	border-radius: inherit;
 }
 .ui-collapsible-set .ui-collapsible.ui-first-child {
 	-webkit-border-top-right-radius: inherit;	
@@ -2923,7 +2923,7 @@ li.ui-block-e {
 	-webkit-border-bottom-right-radius: 0;	
 	border-bottom-right-radius: 0;
 	-webkit-border-bottom-left-radius: 0;	
-	border-bottom-left-radius: 0;		
+	border-bottom-left-radius: 0;
 }
 .ui-collapsible-set .ui-collapsible {
 	margin: -1px -1em 0;
