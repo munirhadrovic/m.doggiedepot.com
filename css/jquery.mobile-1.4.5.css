@@ -1480,7 +1480,7 @@ div.ui-mobile-viewport {
 }
 .ui-header .ui-title,
 .ui-footer .ui-title {
-	font-size: 14px;
+	font-size: 12px;
 	min-height: 1.1em;
 	text-align: center;
 	display: block;
@@ -1490,6 +1490,7 @@ div.ui-mobile-viewport {
 	overflow: hidden;
 	white-space: nowrap;
 	outline: 0 !important;
+    font-weight: normal;
 }
 .ui-footer .ui-title {
 	margin: 0 1em;
